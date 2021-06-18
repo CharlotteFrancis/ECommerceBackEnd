@@ -40,10 +40,7 @@ router.get('/products/:id', (req, res) => {
 router.post('/products', (req, res) => {
   /* req.body should look like this...
     {
-      product_name: "Basketball",
-      price: 200.00,
-      stock: 3,
-      tagIds: [1, 2, 3, 4]
+0
     }
   */
   Product.create(req.body)
